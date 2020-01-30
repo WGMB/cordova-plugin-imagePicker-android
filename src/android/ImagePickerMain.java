@@ -191,18 +191,18 @@ public class ImagePickerMain extends CordovaPlugin {
 //                                 }
 //                             }
 
-                            if(newFile != null) {
-                                newPath = newFile.getAbsolutePath();
-                                newSize = newFile.length();
+//                             if(newFile != null) {
+//                                 newPath = newFile.getAbsolutePath();
+//                                 newSize = newFile.length();
 
-                                BitmapFactory.Options bounds = new BitmapFactory.Options();
-                                bounds.inJustDecodeBounds = true;
-                                BitmapFactory.decodeFile(newPath, bounds);
-                                newHeight = bounds.outHeight;
-                                newWidth = bounds.outWidth;
+//                                 BitmapFactory.Options bounds = new BitmapFactory.Options();
+//                                 bounds.inJustDecodeBounds = true;
+//                                 BitmapFactory.decodeFile(newPath, bounds);
+//                                 newHeight = bounds.outHeight;
+//                                 newWidth = bounds.outWidth;
 
-                                Log.v(TAG, "Image size after compression =====> " + readableFileSize(newSize));
-                            }
+//                                 Log.v(TAG, "Image size after compression =====> " + readableFileSize(newSize));
+//                             }
                         }
                     }
 
