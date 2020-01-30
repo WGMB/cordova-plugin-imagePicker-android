@@ -12,8 +12,8 @@ import com.lzy.imagepicker.bean.ImageItem;
 
 import java.util.ArrayList;
 
-import uk.co.senab.photoview.PhotoView;
-import uk.co.senab.photoview.PhotoViewAttacher;
+import com.github.chrisbanes.photoview.PhotoView;
+import com.github.chrisbanes.photoview.PhotoView.PhotoViewAttacher;
 
 /**
  * ================================================
