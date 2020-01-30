@@ -12,8 +12,9 @@ import com.lzy.imagepicker.bean.ImageItem;
 
 import java.util.ArrayList;
 
+import com.github.chrisbanes.photoview.OnPhotoTapListener;
 import com.github.chrisbanes.photoview.PhotoView;
-import com.github.chrisbanes.photoview.PhotoView.PhotoViewAttacher;
+import com.github.chrisbanes.photoview.PhotoViewAttacher;
 
 /**
  * ================================================
