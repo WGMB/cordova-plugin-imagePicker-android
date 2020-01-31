@@ -63,7 +63,7 @@ module.exports = {
             }
         };
 
-        exec(success, onFail, 'ImagePicker', 'getPictures', [options]);
+        exec(success, onFail, 'ImagePickerAndroid', 'getPictures', [options]);
     },
     /**
      * 拍照
@@ -81,6 +81,6 @@ module.exports = {
             }
         };
 
-        exec(success, onFail, 'ImagePicker', 'takePhoto', [options]);
+        exec(success, onFail, 'ImagePickerAndroid', 'takePhoto', [options]);
     }
 };
