@@ -15,7 +15,7 @@ import com.lzy.imagepicker.ui.*;
 import com.lzy.imagepicker.util.*;
 import com.lzy.imagepicker.view.*;
 import com.giants.imagepicker.imageloader.*;
-import com.nanchen.compresshelper.CompressHelper;
+//import com.nanchen.compresshelper.CompressHelper;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
