@@ -37,8 +37,8 @@
     </engines>
 
     <!-- js module-->
-    <js-module src="www/ImagePicker.js" name="ImagePicker">
-        <clobbers target="ImagePicker" />
+    <js-module src="www/ImagePicker.js" name="ImagePickerAndroid">
+        <clobbers target="ImagePickerAndroid" />
     </js-module>
 
     <!-- ios -->
@@ -123,7 +123,7 @@
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="ImagePicker">
+            <feature name="ImagePickerAndroid">
                 <param name="android-package" value="com.giants.imagepicker.ImagePickerMain"/>
             </feature>
         </config-file>
@@ -181,7 +181,7 @@
         </config-file>
 
         <!-- 第三方库 和 sourceCompatibility 1.7 用来支持 diamond 运算符  -->
-		<framework src="src/android/imagepicker.gradle" custom="true" type="gradleReference"/>
+	<framework src="src/android/imagepicker.gradle" custom="true" type="gradleReference"/>
         <source-file src="src/android/module/adapter/ImageFolderAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />
         <source-file src="src/android/module/adapter/ImagePageAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />
         <source-file src="src/android/module/adapter/ImageRecyclerAdapter.java" target-dir="src/com/lzy/imagepicker/adapter" />
@@ -211,7 +211,7 @@
         <source-file src="src/android/module/ImagePicker.java" target-dir="src/com/lzy/imagepicker" />
         <source-file src="src/android/module/ImagePickerProvider.java" target-dir="src/com/lzy/imagepicker" />
 
-       <source-file src="src/android/imageloader/GlideImageLoader.java" target-dir="src/com/giants/imagepicker/imageloader" />
+        <source-file src="src/android/imageloader/GlideImageLoader.java" target-dir="src/com/giants/imagepicker/imageloader" />
 
         <source-file src="src/android/ImagePickerMain.java" target-dir="src/com/giants/imagepicker" />
         
