@@ -28,7 +28,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-//import top.zibin.luban.Luban;
+import top.zibin.luban.Luban;
 
 /**
  * Created by Administrator on 2017/8/29.
@@ -158,12 +158,12 @@ public class ImagePickerMain extends CordovaPlugin {
                             newSize = imageItem.size;
                         }
                         else { // 压缩
-//                             File oldFile = new File(imageItem.path);
+                            File oldFile = new File(imageItem.path);
 
-//                             Log.v(TAG, "Image size before compression =====> " + readableFileSize(oldFile.length()));
+                            Log.v(TAG, "Image size before compression =====> " + readableFileSize(oldFile.length()));
 
-//                             File newFile = null;
-
+                            File newFile = null;
+// *** CompressHelper ***
 //                             if(image_limit_width > 0 && image_limit_height > 0 && image_limit_quality > 0) {
 //                                 newFile = new CompressHelper.Builder(context)
 //                                         .setMaxWidth(image_limit_width)  // 默认最大宽度
@@ -174,35 +174,35 @@ public class ImagePickerMain extends CordovaPlugin {
 //                                         .compressToFile(oldFile);
 //                             }
 //                             else { // auto compress like wechat
-//                                 try {
-//                                     List<File> files = Luban.with(context)
-//                                             .load(oldFile)
-//                                             .setTargetDir(targetDirPath)
-//                                             .get();
-//                                     if(files.size() > 0) {
-//                                         newFile = files.get(0);
-//                                     }
-//                                     else {
-//                                         throw new Exception("Unknown exception when compressing " + oldFile.getAbsolutePath());
-//                                     }
-//                                 }
-//                                 catch(Exception e) {
-//                                     e.printStackTrace();
-//                                 }
-//                             }
+                                try {
+                                    List<File> files = Luban.with(context)
+                                            .load(oldFile)
+                                            .setTargetDir(targetDirPath)
+                                            .get();
+                                    if(files.size() > 0) {
+                                        newFile = files.get(0);
+                                    }
+                                    else {
+                                        throw new Exception("Unknown exception when compressing " + oldFile.getAbsolutePath());
+                                    }
+                                }
+                                catch(Exception e) {
+                                    e.printStackTrace();
+                                }
+//                            }
 
-//                             if(newFile != null) {
-//                                 newPath = newFile.getAbsolutePath();
-//                                 newSize = newFile.length();
+                            if(newFile != null) {
+                                newPath = newFile.getAbsolutePath();
+                                newSize = newFile.length();
 
-//                                 BitmapFactory.Options bounds = new BitmapFactory.Options();
-//                                 bounds.inJustDecodeBounds = true;
-//                                 BitmapFactory.decodeFile(newPath, bounds);
-//                                 newHeight = bounds.outHeight;
-//                                 newWidth = bounds.outWidth;
+                                BitmapFactory.Options bounds = new BitmapFactory.Options();
+                                bounds.inJustDecodeBounds = true;
+                                BitmapFactory.decodeFile(newPath, bounds);
+                                newHeight = bounds.outHeight;
+                                newWidth = bounds.outWidth;
 
-//                                 Log.v(TAG, "Image size after compression =====> " + readableFileSize(newSize));
-//                             }
+                                Log.v(TAG, "Image size after compression =====> " + readableFileSize(newSize));
+                            }
                         }
                     }
 
