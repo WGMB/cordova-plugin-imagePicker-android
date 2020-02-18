@@ -42,7 +42,7 @@
     </js-module>
 
     <!-- ios -->
-    <platform name="ios">
+    <!-- <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="ImagePicker">
                 <param name="ios-package" value="ImagePicker"/>
@@ -118,7 +118,7 @@
 
         <resource-file src="src/ios/libs/TZImagePickerController.bundle" />
 
-    </platform>
+    </platform> -->
 
     <!-- android -->
     <platform name="android">
