@@ -1,0 +1,24 @@
+<resources>
+    <string name="ip_all_images">Todas las fotos</string>
+    <string name="ip_folder_image_count">%1$d en total</string>
+    <string name="ip_preview_image_count">%1$d/%2$d</string>
+    <string name="ip_select_limit">%1$d a lo sumo</string>
+    <string name="ip_complete">Completa</string>
+    <string name="ip_select_complete">Completa(%1$d/%2$d)</string>
+    <string name="ip_preview">Vista previa</string>
+    <string name="ip_preview_count">Vista previa(%1$d)</string>
+    <string name="ip_photo_crop">Crop</string>
+    <string name="ip_origin">Imagen de origen</string>
+    <string name="ip_origin_size">Imagen de origen(%1$s)</string>
+    <string name="ip_str_no_camera">No detecta ninguna cámara</string>
+    <string name="ip_str_capture">Cámara</string>
+    <string name="ip_str_choose">Elija</string>
+    <string name="ip_str_picture">Foto</string>
+    <string name="ip_str_no_permission">No hay permiso</string>
+    <string name="ip_str_no_camera_permission">No hay permiso para capturar una foto</string>
+    <string name="ip_str_tips">Consejos</string>
+    <string name="ip_need_to_del">¿Estás seguro de borrar esta foto?</string>
+    <string name="ip_cancel">Cancelar</string>
+    <string name="ip_str_confirm">Confirme</string>
+    <string name="ip_canceled">Cancelado</string>
+</resources>
