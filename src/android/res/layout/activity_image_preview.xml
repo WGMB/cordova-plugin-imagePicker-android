@@ -37,7 +37,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:paddingLeft="8dp"
-                android:text="原图"
+                android:text="Originalbild"
                 android:textColor="#FFF" />
 
             <com.lzy.imagepicker.view.SuperCheckBox
