@@ -1,0 +1,24 @@
+<resources>
+    <string name="ip_all_images">Alle Fotos</string>
+    <string name="ip_folder_image_count">%1$d insgesamt</string>
+    <string name="ip_preview_image_count">%1$d/%2$d</string>
+    <string name="ip_select_limit">%1$d höchstens</string>
+    <string name="ip_complete">Vollständig</string>
+    <string name="ip_select_complete">Vollständig(%1$d/%2$d)</string>
+    <string name="ip_preview">Vorschau</string>
+    <string name="ip_preview_count">Vorschau(%1$d)</string>
+    <string name="ip_photo_crop">Zuschneiden</string>
+    <string name="ip_origin">Originalbild</string>
+    <string name="ip_origin_size">Originalbild(%1$s)</string>
+    <string name="ip_str_no_camera">Keine Kamera erkannt</string>
+    <string name="ip_str_capture">Kamera</string>
+    <string name="ip_str_choose">Wählen</string>
+    <string name="ip_str_picture">Foto</string>
+    <string name="ip_str_no_permission">Keine Erlaubnis</string>
+    <string name="ip_str_no_camera_permission">Keine Erlaubnis, um ein Foto auzunehmen</string>
+    <string name="ip_str_tips">Tipps</string>
+    <string name="ip_need_to_del">Sind Sie sicher, dass Sie das Foto löschen möchten?</string>
+    <string name="ip_cancel">Abbrechen</string>
+    <string name="ip_str_confirm">Bestätigen</string>
+    <string name="ip_canceled">Abgebrochen</string>
+</resources>
