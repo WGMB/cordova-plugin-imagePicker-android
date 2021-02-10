@@ -42,14 +42,14 @@
     </js-module>
 
     <!-- ios -->
-    <!-- <platform name="ios">
+    <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="ImagePicker">
-                <param name="ios-package" value="ImagePicker"/>
+            <feature name="ImagePickerAndroid">
+                <param name="ios-package" value="ImagePickerIos"/>
             </feature>
         </config-file>
 
-        <preference name="CAMERA_USAGE_DESCRIPTION" default="拍照上传需要使用相机" />
+<!--         <preference name="CAMERA_USAGE_DESCRIPTION" default="拍照上传需要使用相机" />
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
             <string>$CAMERA_USAGE_DESCRIPTION</string>
         </config-file>
@@ -57,7 +57,7 @@
         <preference name="PHOTOLIBRARY_USAGE_DESCRIPTION" default="选图上传需要访问相册" />
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
             <string>$PHOTOLIBRARY_USAGE_DESCRIPTION</string>
-        </config-file>
+        </config-file> -->
 
         <header-file src="src/ios/ImagePickerMain.h"/>
         <source-file src="src/ios/ImagePickerMain.m"/>
