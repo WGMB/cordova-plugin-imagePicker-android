@@ -45,7 +45,7 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="ImagePickerAndroid">
-                <param name="ios-package" value="ImagePickerIos"/>
+                <param name="ios-package" value="ImagePickerAndroid"/>
             </feature>
         </config-file>
 
